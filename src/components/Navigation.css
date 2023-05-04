@@ -1,3 +1,13 @@
 .navigation {
   margin: 0 auto;
 }
+
+.nav-list {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  position: relative;
+  display: flex;
+  gap: 5rem;
+}

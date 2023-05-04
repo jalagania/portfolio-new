@@ -3,17 +3,21 @@ import { MoonIcon, SunIcon } from "../assets/Icons";
 import "./Theme.css";
 
 function Theme() {
-  const [darktheme, setDarktheme] = useState(false);
+  const [darkTheme, setDarkTheme] = useState(false);
 
-  document.body.className = darktheme ? "dark-theme" : "";
+  document.body.className = darkTheme ? "dark-theme" : "";
 
   return (
     <div className="theme-box">
-      <SunIcon onClick={() => setDarktheme(false)} />
+      <button onClick={() => setDarkTheme(false)}>
+        <SunIcon />
+      </button>
       <div className="theme-switch">
-        <div className="theme-switch--ball"></div>
+        <div className={`theme-switch--ball ${darkTheme ? "right" : ""}`}></div>
       </div>
-      <MoonIcon onClick={() => setDarktheme(true)} />
+      <button onClick={() => setDarkTheme(true)}>
+        <MoonIcon />
+      </button>
     </div>
   );
 }
