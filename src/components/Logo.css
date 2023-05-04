@@ -3,6 +3,7 @@
 .logo-box {
   font-family: "Konkhmer Sleokchher", cursive;
   font-size: 6rem;
+  color: var(--green);
   display: flex;
 }
 

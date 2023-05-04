@@ -1,0 +1,15 @@
+.skillset-box {
+  padding: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.skillset-box i {
+  font-size: 10rem;
+  padding: 3rem;
+  color: var(--green);
+  background-color: rgba(26, 188, 156, 0.3);
+  border-radius: 1rem;
+}

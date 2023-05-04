@@ -6,8 +6,25 @@
   font-size: 1.6rem;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.2rem;
-  position: relative;
+  letter-spacing: 1.5px;
+  color: var(--b-w);
   display: flex;
-  gap: 5rem;
+  gap: 4rem;
+}
+
+.nav-link a {
+  padding: 1rem;
+  display: block;
+}
+
+.nav-link {
+  border: 2px solid transparent;
+  border-radius: 0.8rem;
+  transition: all 0.2s;
+}
+
+@media (hover: hover) {
+  .nav-link:hover {
+    border: 2px solid var(--green);
+  }
 }

@@ -9,13 +9,13 @@ function Theme() {
 
   return (
     <div className="theme-box">
-      <button onClick={() => setDarkTheme(false)}>
+      <button className="btn-sun" onClick={() => setDarkTheme(false)}>
         <SunIcon />
       </button>
       <div className="theme-switch">
         <div className={`theme-switch--ball ${darkTheme ? "right" : ""}`}></div>
       </div>
-      <button onClick={() => setDarkTheme(true)}>
+      <button className="btn-moon" onClick={() => setDarkTheme(true)}>
         <MoonIcon />
       </button>
     </div>

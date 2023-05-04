@@ -8,10 +8,18 @@
   width: 3rem;
 }
 
+.btn-sun svg {
+  fill: var(--sun-bg);
+}
+
+.btn-moon svg {
+  fill: var(--moon-bg);
+}
+
 .theme-switch {
   width: 5rem;
   padding: 0.5rem;
-  background-color: blueviolet;
+  background-color: var(--green);
   border-radius: 5rem;
   display: flex;
   align-items: center;
@@ -21,7 +29,7 @@
   width: 1.6rem;
   height: 1.6rem;
   border-radius: 50%;
-  background-color: black;
+  background-color: whitesmoke;
   transition: all 0.2s;
 }
 
