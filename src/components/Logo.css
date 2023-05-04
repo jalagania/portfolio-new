@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap");
+
+.logo-box {
+  font-family: "Konkhmer Sleokchher", cursive;
+  font-size: 6rem;
+  display: flex;
+}
+
+.logo-box p:first-child {
+  margin-right: -1rem;
+}
