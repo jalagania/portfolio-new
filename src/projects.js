@@ -82,6 +82,7 @@ export const projects = [
   {
     id: 1216,
     cover: "./images/devjobs-preview.jpg",
+    title: "Devjobs App",
     tools: ["html", "css", "react", "context"],
     netlify: "https://devjobs-app-beka.netlify.app",
     github: "https://github.com/jalagania/devjobs-app",
