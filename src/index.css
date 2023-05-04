@@ -1,17 +1,14 @@
 :root {
   --main-bg: #f7f7f7;
   --b-w: black;
-  --sun-bg: gold;
-  --moon-bg: black;
+  --theme-bg: gold;
   --green: #1abc9c;
-  --red: #ff2337;
+  --red: #d40000;
 }
 
 .dark-theme {
   --main-bg: #111111;
   --b-w: whitesmoke;
-  --sun-bg: whitesmoke;
-  --moon-bg: gold;
 }
 
 *,
@@ -64,4 +61,15 @@ button {
   width: 94%;
   max-width: 120rem;
   margin: 0 auto;
+}
+
+.section-heading {
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1rem 4rem;
+  margin-bottom: 3rem;
+  display: inline-block;
+  color: var(--red);
+  background-color: rgba(255, 35, 53, 0.3);
 }

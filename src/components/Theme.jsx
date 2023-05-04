@@ -8,17 +8,10 @@ function Theme() {
   document.body.className = darkTheme ? "dark-theme" : "";
 
   return (
-    <div className="theme-box">
-      <button className="btn-sun" onClick={() => setDarkTheme(false)}>
-        <SunIcon />
-      </button>
-      <div className="theme-switch">
-        <div className={`theme-switch--ball ${darkTheme ? "right" : ""}`}></div>
-      </div>
-      <button className="btn-moon" onClick={() => setDarkTheme(true)}>
-        <MoonIcon />
-      </button>
-    </div>
+    <button className="btn-theme-box" onClick={() => setDarkTheme(!darkTheme)}>
+      {!darkTheme && <SunIcon />}
+      {darkTheme && <MoonIcon />}
+    </button>
   );
 }
 

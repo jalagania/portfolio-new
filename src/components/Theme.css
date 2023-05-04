@@ -1,38 +1,13 @@
-.theme-box {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.theme-box svg {
-  width: 3rem;
-}
-
-.btn-sun svg {
-  fill: var(--sun-bg);
-}
-
-.btn-moon svg {
-  fill: var(--moon-bg);
-}
-
-.theme-switch {
-  width: 5rem;
-  padding: 0.5rem;
+.btn-theme-box {
+  padding: 1rem;
   background-color: var(--green);
-  border-radius: 5rem;
+  border-radius: 50%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
-.theme-switch--ball {
-  width: 1.6rem;
-  height: 1.6rem;
-  border-radius: 50%;
-  background-color: whitesmoke;
-  transition: all 0.2s;
-}
-
-.theme-switch--ball.right {
-  margin-left: 2.4rem;
+.btn-theme-box svg {
+  width: 3rem;
+  fill: var(--theme-bg);
 }

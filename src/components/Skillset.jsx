@@ -4,7 +4,7 @@ function Skillset() {
   return (
     <section className="skillset-section">
       <div className="section-container">
-        <h3>Skillset</h3>
+        <h3 className="section-heading">Skillset</h3>
         <div className="skillset-box">
           <i className="devicon-html5-plain"></i>
           <i className="devicon-css3-plain"></i>

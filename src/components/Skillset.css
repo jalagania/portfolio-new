@@ -1,9 +1,10 @@
 .skillset-box {
-  padding: 2rem 0;
+  padding: 10rem 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 4rem;
+  border-top: 1px solid gray;
 }
 
 .skillset-box i {
