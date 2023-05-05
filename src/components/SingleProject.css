@@ -3,6 +3,7 @@
   padding: 2rem;
   background-color: var(--project-bg);
   overflow: hidden;
+  box-shadow: 0 12px 12px -10px var(--shadow);
 }
 
 .project__cover--wrapper {

@@ -6,6 +6,8 @@
   --theme-bg: gold;
   --green: #1abc9c;
   --red: #d40000;
+  --violet: #7434c3;
+  --shadow: rgba(0, 0, 0, 0.2);
 }
 
 .dark-theme {
@@ -74,6 +76,6 @@ button {
   padding: 1rem 4rem;
   margin-bottom: 3rem;
   display: inline-block;
-  color: var(--red);
-  background-color: rgba(255, 35, 53, 0.3);
+  color: var(--violet);
+  background-color: rgba(116, 52, 195, 0.2);
 }
