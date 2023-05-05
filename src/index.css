@@ -1,14 +1,17 @@
 :root {
-  --main-bg: #f7f7f7;
-  --b-w: black;
+  --main-bg: #f8f8fb;
+  --project-bg: #ffffff;
+  --text-main: #19202d;
+  --gray: #6e8098;
   --theme-bg: gold;
   --green: #1abc9c;
   --red: #d40000;
 }
 
 .dark-theme {
-  --main-bg: #111111;
-  --b-w: whitesmoke;
+  --main-bg: #121721;
+  --project-bg: #19202d;
+  --text-main: #ffffff;
 }
 
 *,
@@ -21,6 +24,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {

@@ -1,25 +1,101 @@
 .project {
   width: 35rem;
   padding: 2rem;
-  border-radius: 1rem;
-  border: 1px solid lightgray;
+  background-color: var(--project-bg);
   overflow: hidden;
+}
+
+.project__cover--wrapper {
+  overflow: hidden;
+}
+
+.project__cover {
+  transition: all 0.6s;
 }
 
 .project__title {
   font-size: 2rem;
-  text-transform: uppercase;
-  margin: 2rem 0;
-  color: black;
   font-weight: 500;
+  text-transform: uppercase;
+  color: var(--text-main);
+  margin-top: 2rem;
 }
 
 .project__tools {
+  margin: 1rem 0;
   display: flex;
   gap: 1rem;
 }
 
 .project__tools p {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+  font-weight: 500;
   text-transform: uppercase;
+  padding: 0.5rem;
+  border-radius: 2px;
+}
+
+.html {
+  color: crimson;
+  background-color: rgba(220, 20, 60, 0.3);
+}
+
+.css {
+  color: royalblue;
+  background-color: rgba(65, 105, 225, 0.3);
+}
+
+.tailwind {
+  color: #09b942;
+  background-color: rgba(9, 185, 65, 0.3);
+}
+
+.ts {
+  color: darkcyan;
+  background-color: rgba(0, 139, 139, 0.3);
+}
+
+.react {
+  color: #47cffc;
+  background-color: rgba(71, 207, 252, 0.3);
+}
+
+.context {
+  color: #cd1c98;
+  background-color: rgba(205, 28, 152, 0.3);
+}
+
+.redux {
+  color: #7434c3;
+  background-color: rgba(116, 52, 195, 0.3);
+}
+
+.api {
+  color: #ff7d1a;
+  background-color: rgba(255, 125, 26, 0.3);
+}
+
+.project__links {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  color: var(--gray);
+  display: flex;
+  gap: 1rem;
+}
+
+.project__links a {
+  font-weight: 600;
+  padding: 1rem 3rem;
+  border: 1px solid var(--gray);
+  border-radius: 0.5rem;
+}
+
+@media (hover: hover) {
+  .project__cover:hover {
+    scale: 1.2;
+  }
+
+  .project__links a:hover {
+    background-color: rgba(110, 128, 152, 0.3);
+  }
 }

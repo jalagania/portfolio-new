@@ -7,7 +7,7 @@
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  color: var(--b-w);
+  color: var(--gray);
   display: flex;
   gap: 4rem;
 }

@@ -4,7 +4,9 @@ import "./SingleProject.css";
 function SingleProject({ project }) {
   return (
     <div className="project">
-      <img src={project.cover} alt="project image" className="project__cover" />
+      <div className="project__cover--wrapper">
+        <img src={project.cover} alt="project image" className="project__cover" />
+      </div>
       <p className="project__title">{project.title}</p>
       <div className="project__tools">
         {project.tools.map((tool, index) => (

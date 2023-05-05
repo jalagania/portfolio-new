@@ -4,7 +4,7 @@ import SingleProject from "./SingleProject";
 
 function Projects() {
   return (
-    <section className="projects-section">
+    <section id="projects" className="projects-section">
       <div className="section-container">
         <h3 className="section-heading">Projects</h3>
         <div className="projects-container">

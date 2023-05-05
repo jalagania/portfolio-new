@@ -1,7 +1,4 @@
 .btn-theme-box {
-  padding: 1rem;
-  background-color: var(--green);
-  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
