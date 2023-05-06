@@ -7,12 +7,7 @@ function Footer() {
         <h3 className="section-heading">Contact</h3>
         <div className="form-container">
           <h4>Get in touch!</h4>
-          <form
-            // action="https://formsubmit.co/beka.jalagania@gmail.com"
-            // method="POST"
-            className="footer__form"
-            onClick={(event) => event.preventDefault()}
-          >
+          <form className="footer__form" onSubmit={(event) => event.preventDefault()}>
             <input type="text" name="name" placeholder="Name" className="footer__form--input" />
             <input type="email" name="email" placeholder="Email" className="footer__form--input" />
             <textarea
@@ -20,7 +15,9 @@ function Footer() {
               placeholder="Write your message here"
               className="footer__form--textarea"
             ></textarea>
-            <button className="footer__form--btn-submit">Send</button>
+            <button type="submit" className="footer__form--btn-submit">
+              Send
+            </button>
           </form>
         </div>
       </div>
