@@ -151,6 +151,14 @@ export const projects = [
     netlify: "https://url-shortener-beka.netlify.app",
     github: "https://github.com/jalagania/url-shortener",
   },
+  {
+    id: 505,
+    cover: "./images/dashboard-preview.jpg",
+    title: "SM Dashboard",
+    tools: ["html", "css", "react"],
+    netlify: "https://sm-dashboard-beka.netlify.app",
+    github: "https://github.com/jalagania/sm-dashboard",
+  },
   //   {
   //     id: 12,
   //     cover: "./images/ip-preview.jpg",
