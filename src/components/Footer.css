@@ -5,12 +5,12 @@
   margin-bottom: 4rem;
 }
 
-.form-container {
+.footer-form-container {
   padding: 10rem 0;
   border-top: 1px solid var(--gray);
 }
 
-.footer__form {
+.footer-form {
   max-width: 60rem;
   margin: 0 auto;
   display: grid;
@@ -18,8 +18,8 @@
   gap: 2rem;
 }
 
-.footer__form--input,
-.footer__form--textarea {
+.footer-form__input,
+.footer-form__textarea {
   width: 100%;
   padding: 1.6rem 2.4rem;
   outline: none;
@@ -30,23 +30,23 @@
   border-radius: 0.8rem;
 }
 
-.footer__form--input:focus,
-.footer__form--textarea:focus {
+.footer-form__input:focus,
+.footer-form__textarea:focus {
   border: 1px solid var(--green);
 }
 
-.footer__form--textarea {
+.footer-form__textarea {
   min-height: 18rem;
   resize: none;
   grid-column: 1 / -1;
 }
 
-.footer__form--input::placeholder,
-.footer__form--textarea::placeholder {
+.footer-form__input::placeholder,
+.footer-form__textarea::placeholder {
   color: var(--gray);
 }
 
-.footer__form--btn-submit {
+.footer-form__btn-submit {
   font-size: 1.6rem;
   font-weight: 700;
   padding: 1.6rem;
@@ -57,7 +57,7 @@
   grid-column: 2;
 }
 
-.footer__form--btn-submit:active {
+.footer-form__btn-submit:active {
   scale: 0.98;
 }
 
@@ -70,7 +70,7 @@
 }
 
 @media (hover: hover) {
-  .footer__form--btn-submit:hover {
+  .footer-form__btn-submit:hover {
     background-color: rgba(26, 188, 156, 0.8);
   }
 }
