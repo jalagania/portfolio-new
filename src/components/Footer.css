@@ -29,9 +29,26 @@
 .footer-form {
   max-width: 60rem;
   margin: 0 auto;
+  text-align: left;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
+}
+
+.footer-form .label-name {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--text-main);
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.footer-form .error-message {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--red);
+  margin-top: 0.5rem;
+  display: block;
 }
 
 .footer-form__input,
@@ -46,15 +63,23 @@
   border-radius: 0.8rem;
 }
 
+.footer-form__input.error,
+.footer-form__textarea.error {
+  border: 1px solid var(--red);
+}
+
 .footer-form__input:focus,
 .footer-form__textarea:focus {
   border: 1px solid var(--green);
 }
 
+.message-label {
+  grid-column: 1 / -1;
+}
+
 .footer-form__textarea {
   min-height: 18rem;
   resize: none;
-  grid-column: 1 / -1;
 }
 
 .footer-form__input::placeholder,
@@ -75,6 +100,15 @@
 
 .footer-form__btn-submit:active {
   scale: 0.98;
+}
+
+.footer-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.footer-form button:disabled:active {
+  scale: 1;
 }
 
 .footer__copyright {
