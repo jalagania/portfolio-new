@@ -25,6 +25,7 @@
 .project__tools {
   margin: 1rem 0;
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
@@ -118,6 +119,5 @@
 
   .project__tools p {
     font-size: 1.3rem;
-    flex-wrap: wrap;
   }
 }
