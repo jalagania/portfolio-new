@@ -106,3 +106,18 @@
     width: 34rem;
   }
 }
+
+@media (max-width: 500px) {
+  .project {
+    width: 100%;
+  }
+
+  .project__title {
+    font-size: 1.8rem;
+  }
+
+  .project__tools p {
+    font-size: 1.3rem;
+    flex-wrap: wrap;
+  }
+}
