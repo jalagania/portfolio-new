@@ -100,3 +100,9 @@
     background-color: rgba(110, 128, 152, 0.3);
   }
 }
+
+@media (max-width: 768px) {
+  .project {
+    width: 34rem;
+  }
+}

@@ -1,7 +1,15 @@
+.footer {
+}
+
 .footer-form-container {
   padding: 10rem 0;
   border-top: 1px solid var(--gray);
   text-align: center;
+
+  background-image: url(../assets/lines.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 20rem;
 }
 
 .footer h4 {

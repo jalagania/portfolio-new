@@ -3,6 +3,24 @@
 .hero-section {
   padding: 10rem 0;
   text-align: center;
+  position: relative;
+}
+
+.hero-section::before {
+  content: "";
+  background-image: url(../assets/bg-pattern-intro-left-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.1;
+}
+
+.hero-section .section-container {
+  position: relative;
 }
 
 .hero-section h1 {
