@@ -48,3 +48,29 @@
   color: var(--text-main);
   margin-top: 6rem;
 }
+
+@media (max-width: 800px) {
+  .hero-section::before {
+    background-size: 18rem;
+    background-position-y: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-section::before {
+    background-size: 16rem;
+  }
+
+  .hero-section {
+    padding: 7rem 0;
+  }
+
+  .hero-section h1 {
+    font-size: 6rem;
+  }
+
+  .hero-section h2 {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+  }
+}

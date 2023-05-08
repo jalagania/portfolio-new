@@ -8,3 +8,9 @@
   width: 3rem;
   fill: var(--theme-bg);
 }
+
+@media (max-width: 500px) {
+  .btn-theme-box {
+    margin-left: auto;
+  }
+}

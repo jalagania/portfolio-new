@@ -6,3 +6,9 @@
   justify-content: center;
   gap: 3rem;
 }
+
+@media (max-width: 500px) {
+  .projects-container {
+    padding: 8rem 0;
+  }
+}
