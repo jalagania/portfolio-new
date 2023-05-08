@@ -102,9 +102,9 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .project {
-    width: 34rem;
+    width: 33rem;
   }
 }
 

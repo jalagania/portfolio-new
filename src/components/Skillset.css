@@ -15,12 +15,14 @@
   border-radius: 1rem;
 }
 
+@media (max-width: 800px) {
+  .skillset-box i {
+    font-size: 8rem;
+  }
+}
+
 @media (max-width: 500px) {
   .skillset-box {
     padding: 8rem 0;
-  }
-
-  .skillset-box i {
-    font-size: 8rem;
   }
 }

@@ -56,6 +56,16 @@
   }
 }
 
+@media (max-width: 600px) {
+  .hero-section h1 {
+    font-size: 8rem;
+  }
+
+  .hero-section h2 {
+    font-size: 2rem;
+  }
+}
+
 @media (max-width: 500px) {
   .hero-section::before {
     background-size: 16rem;

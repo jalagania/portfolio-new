@@ -29,6 +29,12 @@
   }
 }
 
+@media (max-width: 600px) {
+  .nav-list {
+    gap: 1rem;
+  }
+}
+
 @media (max-width: 500px) {
   .navigation {
     display: none;
