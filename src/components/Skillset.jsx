@@ -13,6 +13,7 @@ function Skillset() {
           <i className="devicon-javascript-plain"></i>
           <i className="devicon-typescript-plain"></i>
           <i className="devicon-react-original"></i>
+          <i className="devicon-nextjs-original"></i>
           <i className="devicon-redux-original"></i>
           <i className="devicon-jest-plain"></i>
           <i className="devicon-github-original"></i>
